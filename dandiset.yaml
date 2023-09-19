@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000637
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,9 +10,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Ramachandran, Sandhya (2023) Neural Spike Time Response Data in Anesthetized
-  Rats in the Primary Somatosensory Cortex with Phased Ultrasound Array Stimulation
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000637/draft
+citation: Ramachandran, Sandhya; Gao, Huan; He, Bin; Yu, Kai (2023) Neural Spike Time
+  Response Data in Anesthetized Rats in the Primary Somatosensory Cortex with Phased
+  Ultrasound Array Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000637/draft
 contributor:
 - affiliation: []
   email: s.ramachandran8@gmail.com
@@ -20,6 +21,42 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Gao, Huan
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- contactPoint: []
+  includeInCitation: false
+  name: NIH NS124564
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: NIH EB029354
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- affiliation: []
+  includeInCitation: true
+  name: He, Bin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Yu, Kai
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- contactPoint: []
+  includeInCitation: false
+  name: Carnegie Mellon University
+  roleName:
+  - dcite:Affiliation
+  schemaKey: Organization
 dateCreated: '2023-09-18T18:18:09.902793+00:00'
 description: 'This dataset contains spike times from intracranial recordings taken
   in Wistar rats under 2% isoflurane anesthesia. Data was recorded using a TDT recordings
@@ -32,16 +69,22 @@ description: 'This dataset contains spike times from intracranial recordings tak
   cortex of rats. Recordings are taken using 32 channel Neuronexus electrodes. Ultrasound
   stimulation is delivered every 2.5 seconds, and each recording has either 200 or
   500 trials. '
+ethicsApproval: []
 id: DANDI:000637/draft
 identifier: DANDI:000637
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000637/versions/draft/assets/
 name: Neural Spike Time Response Data in Anesthetized Rats in the Primary Somatosensory
   Cortex with Phased Ultrasound Array Stimulation
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000637/draft
 version: draft
+wasGeneratedBy: []
