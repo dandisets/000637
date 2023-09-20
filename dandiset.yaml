@@ -7,9 +7,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1163422160
+  numberOfFiles: 292
+  numberOfSubjects: 25
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
 citation: Ramachandran, Sandhya; Gao, Huan; He, Bin; Yu, Kai (2023) Neural Spike Time
   Response Data in Anesthetized Rats in the Primary Somatosensory Cortex with Phased
   Ultrasound Array Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000637/draft
@@ -58,17 +78,21 @@ contributor:
   - dcite:Affiliation
   schemaKey: Organization
 dateCreated: '2023-09-18T18:18:09.902793+00:00'
-description: 'This dataset contains spike times from intracranial recordings taken
-  in Wistar rats under 2% isoflurane anesthesia. Data was recorded using a TDT recordings
-  system, and MUA recordings were spike sorted using the Plexon Offline Sorter to
-  determine the spike times saved here. Event times for when ultrasound stimulation
-  was delivered is also provided.
+description: 'In this study, we investigate the neuronal response to transcranial
+  focused ultrasound (tFUS) stimulation on somatosensory cortex by using a 128-element
+  array transducer. Intracranial recordings were performed using a 32-channel Neuronexus
+  multi-electrode array from somatosensory cortex. Wistar rats were anesthetized using
+  isoflurane at 2%. tFUS with different parameters was applied every 2.5s (±10%).
+  Data was recorded using a TDT system and MUA recordings were sorted using the Plexon
+  Offline Sorter to determine the spike times.
 
-  In these recordings, we test different intensities and PRFs (pulse repetition frequencies)
-  of ultrasound stimulation using a phased ultrasound array to stimulate the somatosensory
-  cortex of rats. Recordings are taken using 32 channel Neuronexus electrodes. Ultrasound
-  stimulation is delivered every 2.5 seconds, and each recording has either 200 or
-  500 trials. '
+  This dataset contains spike times of the sorted neural signals and event time for
+  each tFUS trial. In these recordings, we test different pulse repetition frequencies
+  (PRFs) (30Hz, 300Hz, 1500Hz, 3000Hz, and 4500Hz), ultrasound durations (UDs) (100µs,
+  200µs, and 400µs) of ultrasound stimulation to explore the neuronal response to
+  tFUS. The pulse duration was kept at 67ms. Each recording has 500 trials.
+
+  '
 ethicsApproval: []
 id: DANDI:000637/draft
 identifier: DANDI:000637
