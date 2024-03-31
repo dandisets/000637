@@ -30,7 +30,7 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: Ramachandran, Sandhya; Gao, Huan; He, Bin; Yu, Kai (2023) Neural Spike Time
+citation: Ramachandran, Sandhya; Gao, Huan; He, Bin; Yu, Kai (2024) Neural Spike Time
   Response Data in Anesthetized Rats in the Primary Somatosensory Cortex with Phased
   Ultrasound Array Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000637/draft
 contributor:
@@ -98,7 +98,7 @@ id: DANDI:000637/draft
 identifier: DANDI:000637
 keywords: []
 license:
-- spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000637/versions/draft/assets/
 name: Neural Spike Time Response Data in Anesthetized Rats in the Primary Somatosensory
