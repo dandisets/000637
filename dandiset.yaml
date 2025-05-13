@@ -31,9 +31,9 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: Ramachandran, Sandhya; Gao, Huan; He, Bin; Yu, Kai (2024) Neural Spike Time
+citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; He, Bin (2025) Neural Spike Time
   Response Data in Anesthetized Rats in the Primary Somatosensory Cortex with Phased
-  Ultrasound Array Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000637/draft
+  Ultrasound Array Stimulation (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000637/draft
 contributor:
 - affiliation: []
   email: s.ramachandran8@gmail.com
@@ -62,13 +62,13 @@ contributor:
   schemaKey: Organization
 - affiliation: []
   includeInCitation: true
-  name: He, Bin
+  name: Yu, Kai
   roleName:
   - dcite:Author
   schemaKey: Person
 - affiliation: []
   includeInCitation: true
-  name: Yu, Kai
+  name: He, Bin
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -94,19 +94,16 @@ description: "In this study, we investigate the neuronal response to transcrania
 ethicsApproval: []
 id: DANDI:000637/draft
 identifier: DANDI:000637
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000637/versions/draft/assets/
 name: Neural Spike Time Response Data in Anesthetized Rats in the Primary Somatosensory
   Cortex with Phased Ultrasound Array Stimulation
-protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-studyTarget: []
 url: https://dandiarchive.org/dandiset/000637/draft
 version: draft
 wasGeneratedBy: []
