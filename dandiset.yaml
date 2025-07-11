@@ -79,18 +79,23 @@ contributor:
   - dcite:Affiliation
   schemaKey: Organization
 dateCreated: '2023-09-18T18:18:09.902793+00:00'
-description: "In this study, we investigate the neuronal response to transcranial
-  focused ultrasound (tFUS) stimulation on somatosensory cortex by using a 128-element
-  array transducer. Intracranial recordings were performed using a 32-channel Neuronexus
+datePublished: '2025-07-11T17:56:08.535276+00:00'
+description: In this study, we investigate the neuronal response to transcranial focused
+  ultrasound (tFUS) stimulation on somatosensory cortex by using a 128-element array
+  transducer. Intracranial recordings were performed using a 32-channel Neuronexus
   multi-electrode array from somatosensory cortex. Wistar rats were anesthetized using
   isoflurane at 2%. tFUS with different parameters was applied every 2.5s (±10%).
   Data was recorded using a TDT system and MUA recordings were sorted using the Plexon
-  Offline Sorter to determine the spike times.\nThis dataset contains spike times
-  of the sorted neural signals and event time for each tFUS trial. In these recordings,
+  Offline Sorter to determine the spike times.This dataset contains spike times of
+  the sorted neural signals and event time for each tFUS trial. In these recordings,
   we test different pulse repetition frequencies (PRFs) (30Hz, 300Hz, 1500Hz, 3000Hz,
   and 4500Hz), ultrasound durations (UDs) (100µs, 200µs, and 400µs) of ultrasound
   stimulation to explore the neuronal response to tFUS. The pulse duration was kept
-  at 67ms. Each recording has 500 trials.\n"
+  at 67ms. Each recording has 500 trials. Detailed description about this dataset
+  can be found in the following publication. Please cite the paper if you would use
+  a portion of the dataset. Gao, H., Ramachandran, S., Yu, K., and He, B. (2025).
+  Transcranial Focused Ultrasound Modulates Feedforward and Feedback Cortico-Thalamo-Cortical
+  Pathways by Selectively Activating Excitatory Neurons. J Neurosci 45. https://doi.org/10.1523/JNEUROSCI.2218-24.2025.
 ethicsApproval: []
 id: DANDI:000637/draft
 identifier: DANDI:000637
@@ -100,6 +105,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000637/versions/draft/assets/
 name: Neural Spike Time Response Data in Anesthetized Rats in the Primary Somatosensory
   Cortex with Phased Ultrasound Array Stimulation
+publishedBy:
+  endDate: '2025-07-11T17:56:08.535276+00:00'
+  id: urn:uuid:0fbc1bca-b1d3-4cfd-8d7e-4d367f74ade5
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-11T17:56:08.535276+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:53d32e6d-a0fe-418e-8f35-54f2a8282d3e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
