@@ -78,8 +78,12 @@ contributor:
   roleName:
   - dcite:Affiliation
   schemaKey: Organization
+- name: RF1NS131069
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2023-09-18T18:18:09.902793+00:00'
-datePublished: '2025-07-11T19:44:46.773229+00:00'
+datePublished: '2025-08-28T19:35:59.073657+00:00'
 description: In this study, we investigate the neuronal response to transcranial focused
   ultrasound (tFUS) stimulation on somatosensory cortex by using a 128-element array
   transducer. Intracranial recordings were performed using a 32-channel Neuronexus
@@ -107,13 +111,13 @@ manifestLocation:
 name: Neural Spike Time Response Data in Anesthetized Rats in the Primary Somatosensory
   Cortex with Phased Ultrasound Array Stimulation
 publishedBy:
-  endDate: '2025-07-11T19:44:46.773229+00:00'
-  id: urn:uuid:465a0f65-2b4b-41cb-976c-25e1f661291f
+  endDate: '2025-08-28T19:35:59.073657+00:00'
+  id: urn:uuid:778ef942-3ca7-4aee-9729-739b04d9237c
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-07-11T19:44:46.773229+00:00'
+  startDate: '2025-08-28T19:35:59.073657+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:6b653806-954f-4569-8bb8-bafe17862acc
+  - id: urn:uuid:b7a95cfc-d4ba-4682-b065-22db8108b4ad
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
